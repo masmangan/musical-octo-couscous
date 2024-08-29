@@ -84,6 +84,32 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M7</version>
             </plugin>
+
+            <!-- Remove generated file from ANTLR and DOT language file from last rum -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <filesets>
+                        <!-- Remove the example.dot file from the project root -->
+                        <fileset>
+                            <directory>${project.basedir}</directory>
+                            <includes>
+                                <include>example.dot</include>
+                            </includes>
+                        </fileset>
+                        <!-- Remove all files in src/main/antlr4 except .g4 files -->
+                        <fileset>
+                            <directory>src/main/antlr4</directory>
+                            <excludes>
+                                <exclude>**/*.g4</exclude>
+                            </excludes>
+                        </fileset>
+                    </filesets>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 
