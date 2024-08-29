@@ -45,6 +45,15 @@
 
     <build>
         <plugins>
+            <!-- Plugin to exec our main() method -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.0.0</version>
+                <configuration>
+                    <mainClass>com.example.ArithmeticApp</mainClass>
+                </configuration>
+            </plugin>
             <!-- Maven Compiler Plugin to support Java 21 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -55,7 +64,6 @@
                     <target>21</target>
                 </configuration>
             </plugin>
-
             <!-- ANTLR Maven Plugin -->
             <plugin>
                 <groupId>org.antlr</groupId>
