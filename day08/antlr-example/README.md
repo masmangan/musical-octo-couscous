@@ -12,6 +12,7 @@ mvn archetype:generate \
     -DartifactId=antlr-example \
     -DarchetypeArtifactId=maven-archetype-quickstart \
     -DinteractiveMode=false
+```bash
 
 Rename App.java to ArithmeticApp.java.
 Rename AppTest.java to AritmethicAppTest.java.
