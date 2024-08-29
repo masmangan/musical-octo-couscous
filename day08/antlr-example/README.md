@@ -1,6 +1,10 @@
-# Maven Project Setup for ANTLR with Custom Cleanup
+# Maven Project Setup for ANTLR with Github Cloudspaces
 
 This guide will walk you through setting up a Maven project using a Maven archetype, configuring the `pom.xml` to use Java 21, integrating ANTLR, and customizing the `mvn clean` command to remove specific files.
+
+This example can be adapted to run any ANTLR grammar. 
+You can get a Parse Tree as a DOT file as well as a LISP format file using Java code from the example application. 
+You can get a Syntax Diagram (Railroad Diagram) using a VS Code extension.
 
 ## 1. Generate a New Maven Project
 
