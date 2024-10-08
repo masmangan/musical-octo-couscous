@@ -1,0 +1,66 @@
+Enunciado do Trabalho Prático (TP2) - Parser e Semântica
+Objetivos
+
+Este trabalho apresenta três objetivos, com o estudo de um parser de uma Linguagem de Domínio Específico Externa (External Domain Specific Language - EDSL) desenvolvido por terceiros:
+
+a) desenvolver maior familiaridade com o desenvolvimento de analisadores sintáticos (parsers);
+
+b) introduzir e desenvolver o conceito de Linguagem Domínio Específico Externa;
+
+c) introduzir a aplicação de semântica para desenvolver um tradutor, um transcompilador ou um interpretador de linguagem.
+
+Enunciado
+
+Em grupos de até quatro participantes, localize um parser válido desenvolvido usando a ferramenta ANTLR4. Podem ser utilizados exemplos que acompanham a própria ferramenta ou tutoriais, exemplos e sistemas desenvolvidos por terceiros. O grupo e o parser escolhidos devem ser informados no fórum apropriado no Moodle. Apenas um grupo por parser. 
+
+Atenção: neste trabalho, somente podem ser escolhidos parsers que permitem uma aplicação de uma linguagem específica de domínio externa. (a) O parser deve ser acompanhado de (b) um lexer e deve ser aumentado com (c) ações semânticas que permitem "executar" textos escritos na DSL.
+
+O grupo deve demonstrar entradas que são executadas pelo sistema escolhido. O sistema deve estar disponível em código-aberto. O grupo deve estudar e apresentar o código do sistema. 
+
+O grupo deve apresentar qual o domínio de aplicação ou domínio de negócios (application domain or business domain) que a linguagem atende. A preferência deve ser dada para linguagens que auxiliem profissionais que não são programadores, exemplos: médicos, advogados,  biólogos, químicos, jogadores de xadrez, corretores de ações. Evitar linguagens que aparecem como exemplos do ANTLR.
+
+O grupo deve apresentar qual a tarefa que pode ser realizada com a linguagem e como isso ajuda ao leigo. 
+
+O grupo deve apresentar três textos válidos na DSL e:
+
+a) apresentar o texto de entrada;
+
+b) apresentar o texto de saída gerado ou o efeito da execução do texto;
+
+c) apresentar na gramática aumentada quais são as ações semânticas executadas;
+
+d) acrescente uma ação adicional em alguma regra da gramática e mostre
+
+O grupo pode instalar e configurar o ANTLR localmente, na nuvem ou utilizar o lab.antlr.org.
+
+Entregas
+
+Para completar a entrega, o grupo deve gravar um vídeo com a participação de todos os integrantes que devem apresentar os resultados do trabalho. 
+
+O nome de cada integrante do grupo, referência do parser e todo o material consultado devem apresentados! 
+
+Caso uma ferramenta seja instalada ou um problema tenha sido resolvido, apresente as instruções no vídeo!
+
+O grupo deve hospedar o vídeo em um sistema de compartilhamento na nuvem e enviar o endereço do vídeo hospedado no fórum disponível no Moodle.
+
+Avaliação
+
+Componentes
+
+Os itens a seguir são componentes da avaliação:
+
+40% qualidade do parser escolhido, com ênfase na tradução e no valor para o domínio.
+20% entradas aceitas pela linguagem.
+20% demostração das regras acionadas pelas entradas.
+20% alteração da gramática com nova ação.
+Penalidades
+
+Trabalhos entregues fora do prazo ou fora do fórum indicado no Moodle recebem nota ZERO. Integrantes que não participam da apresentação recebem nota ZERO. Caso um dos integrantes não consiga explicar o trabalho quando solicitado, todos os integrantes recebem nota ZERO. Em caso de plágio ou fraude, todos os integrantes recebem nota ZERO. Integrantes não identificados no trabalho recebem nota ZERO.
+
+Evite linguagens como HTML, SQL e outras que aparecem nos exemplos do Antlr.
+
+Evite reconhecer entradas simples demais.
+
+Apresente quem é o usuário da linguagem e a vantagem do ponto de vista dele.
+
+O exemplo deve funcionar no ANTLR4. Evite versões anteriores.
