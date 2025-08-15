@@ -1,4 +1,4 @@
-# Maven Project Setup for ANTLR with Github Cloudspaces
+# Maven Project Setup for ANTLR with GitHub Codespaces
 
 This guide will walk you through setting up a Maven project using a Maven archetype, configuring the `pom.xml` to use Java 21, integrating ANTLR, and customizing the `mvn clean` command to remove specific files.
 
