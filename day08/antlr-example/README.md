@@ -19,7 +19,7 @@ mvn archetype:generate \
 ```
 
 Rename App.java to ArithmeticApp.java.
-Rename AppTest.java to AritmethicAppTest.java.
+Rename AppTest.java to ArithmeticAppTest.java.
 
 ```bash
 cd antlr-example
